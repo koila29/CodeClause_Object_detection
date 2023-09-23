@@ -12,7 +12,7 @@ model = YOLO("../Yolo-Weights/yolov8n.pt")
 # cap.set(4, 720)
 
 # To run the model on Images
-image = model("Images\\2.png", show = True)
+image = model("Images\\1.png", show = True)
 cv2.waitKey(0)
 
 # To run the model for Videos
